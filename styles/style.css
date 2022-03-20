@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    width: 50%;
+}
+
+/* Блок */
+.container {
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+/* Элемент блока */
+.container__item {
+    height: 60px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: black;
+    cursor: all-scroll;
+}
+
+/* Кнопки */
+.button-list {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+}
+
+/* Кнопки перемещения вверх/вниз левого контейнера*/
+.button-list-left {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+}
+
+/* Кнопки перемещения вверх/вниз правого контейнера*/
+.button-list-right {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+}
+
+/* Кнопки перемещения эл-ов между контейнерами*/
+.button-list__item {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius:10px;
+    padding:15px;
+}
+
+/* Активный эл-т блока */
+.active {
+    background: #2bcaff;
+}
