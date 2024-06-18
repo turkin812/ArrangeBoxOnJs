@@ -1,0 +1,11 @@
+/HTML5Application/nbproject/private/
+/nbproject/private/
+HTML5Application/.bowerrc
+HTML5Application/bower.json
+HTML5Application/Gruntfile.js
+HTML5Application/gulpfile.js
+HTML5Application/package.json
+HTML5Application/public_html/index.html
+nbproject/project.xml
+nbproject/project.properties
+.eslintrc.json

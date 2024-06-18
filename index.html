@@ -1,42 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Arrange Box</title>
-    <link rel="stylesheet" type = "text/css" href="styles/style.css">
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Arrange Box</title>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	
 </head>
 <body>
-    <div class="wrapper">
-        <div class = "button-list-left">
-            <button class="button-list__left js-left-up">UP</button>
-            <button class="button-list__left js-left-down">DOWN</button>
-        </div>
-        <div class="js-container1 container">
-            <div class="container__item js-item" data-id="0" draggable="true">Video card</div>
-            <div class="container__item js-item" data-id="1" draggable="true">Motherboard</div>
-            <div class="container__item js-item" data-id="2" draggable="true">CPU</div>
-            <div class="container__item js-item" data-id="3" draggable="true">RAM</div>
-            <div class="container__item js-item" data-id="4" draggable="true">Power Supply</div>
-            <div class="container__item js-item" data-id="5" draggable="true">HDD</div>
-
-        </div>   
-        <div class="button-list">
-            <button class="button-list__item js-left"><</button>
-            <button class="button-list__item js-right">></button>
-            <button class="button-list__item js-left-all"><<</button>
-            <button class="button-list__item js-right-all">>></button>
-            <button class="button-list__item js-add-right">ADD POSSIBLE</button>
-            <button class="button-list__item js-add-left">ADD SELECTED</button>
-        </div>
-        <div class="js-container2 container">
-        </div>
-        <div class = "button-list-right">
-            <button class="button-list__right js-right-up2">UP</button>
-            <button class="button-list__right js-right-down2">DOWN</button>
-        </div>
-    </div>
-    <script type="text/javascript" src="arrangebox.js" ></script>
+	<div class='container'></div>
+	<script type = 'module' src = 'main.js'></script>
 </body>
 </html>
